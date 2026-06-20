@@ -1,37 +1,24 @@
-# 依赖
-node_modules/
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-vendor/
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# 构建产物
-dist/
-build/
-target/
-out/
-*.class
-*.jar
-
-# 环境变量与密钥
-.env
-.env.*
+node_modules
+dist
+dist-ssr
 *.local
 
-# 日志
-*.log
-logs/
-
-# 数据库 / 本地数据
-*.sqlite
-*.db
-
-# 操作系统 / 编辑器
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
-.idea/
-.vscode/
-
-# 其他
-*.tmp
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
